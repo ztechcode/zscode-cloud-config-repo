@@ -1,15 +1,5 @@
 #===============================================================================================
 # ZSCODE Custom Configuration Properties
 #===============================================================================================
-zscode.service.organisation.name=Zafritech (Pty) Ltd 
-zscode.service.organisation.domain=zafritech.net  
-
-
-#===============================================================================================
-# ActiveMQ Artemis Configuration Properties
-#===============================================================================================
-#spring.artemis.mode=native
-#spring.artemis.host=192.168.1.210
-#spring.artemis.port=9876
-spring.artemis.user=artemis
-spring.artemis.password=simetraehcapa
+zscode.service.organisation.name=Zafritech (Pty) Ltd
+zscode.service.organisation.domain=zafritech.net
