@@ -6,13 +6,7 @@ zscode:
       organisation:
          name: Zafritech (Pty) Ltd
          domain: zafritech.net
-
-#===============================================================================================
-# ActiveMQ Artemis Configuration Properties
-#===============================================================================================
-#spring.artemis.mode=native
-#spring.artemis.host=192.168.1.210
-#spring.artemis.port=9876
+         
 spring:
    artemis:
       user: artemis
