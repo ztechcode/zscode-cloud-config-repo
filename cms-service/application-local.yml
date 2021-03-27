@@ -39,10 +39,10 @@ zscode:
       released: 2021-03-27
       license: GNU General Public License v3.0
       base-url: http://localhost:8762/cms/
-      data-dir: /home/lukes/Projects/zscode/resources/cms-service/data/
+      data-dir: /home/lukes/src/resources/cms-service/data/
       upload-dir: /home/lukes/src/uploads/
-      images-dir: /home/lukes/Projects/zscode/resources/cms-service/images/
-      static-resources: /home/lukes/Projects/zscode/resources/cms-service/images/
+      images-dir: /home/lukes/src/resources/cms-service/images/
+      static-resources: /home/lukes/src/resources/cms-service/images/
       restrict-ips: FALSE
       allowed-ips: 127.0.0.1,82.29.194.234,167.99.40.177,192.168.0.14
       api-key: UyqRsPuFxxJGDV2ywzbEsaNGgTa5ps75

@@ -12,8 +12,8 @@ zscode:
          name: Zafritech (Pty) Ltd
          domain: zafritech.net
    services:
-      base-url: http://localhost:8762/accounts/v1/
-      auth-url: http://localhost:8762/accounts/v1/auth/applications
+      base-url: http://localhost:8762/users/v1/
+      auth-url: http://localhost:8762/users/v1/auth/applications
       spaces-url: http://localhost:8762/spaces/v1/
       api: /applications
       auth: /auth/applications
@@ -21,3 +21,14 @@ zscode:
       login: /login
       identity: /identity
       communication: jms
+   urls:
+      gateway-url: http://localhost:8762/
+      accounts-api: http://localhost:8762/accounts/v1/
+      auth-api: http://localhost:8762/accounts/v1/auth/
+      spaces-api: http://localhost:8762/spaces/v1/
+      cms-api: http://localhost:8762/cms/v1/api/
+      cms-url: http://localhost:8762/cms/v1/
+      cms-images: images/id/
+      signup-path: register
+      login-path: login
+
