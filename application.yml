@@ -1,13 +1,23 @@
 #===============================================================================================
 # ZSCODE Custom Configuration Properties
 #===============================================================================================
+spring:
+   artemis:
+      user: artemis
+      password: simetraehcapa
+      
 zscode:
    service:
       organisation:
          name: Zafritech (Pty) Ltd
          domain: zafritech.net
-         
-spring:
-   artemis:
-      user: artemis
-      password: simetraehcapa
+   services:
+      base-url: http://localhost:8762/accounts/v1/
+      auth-url: http://localhost:8762/accounts/v1/auth/applications
+      spaces-url: http://localhost:8762/spaces/v1/
+      api: /applications
+      auth: /auth/applications
+      signup: /signup
+      login: /login
+      identity: /identity
+      communication: jms
