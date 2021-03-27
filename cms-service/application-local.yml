@@ -2,7 +2,7 @@ spring:
    datasource:
       initialization-mode: ALWAYS
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/zscodewfdb?autoReconnect=true&useSSL=false&nullCatalogMeansCurrent=true
+      url: jdbc:mysql://localhost:3306/zscodecmsdb?autoReconnect=true&useSSL=false&nullCatalogMeansCurrent=true
       username: zscodedbuser
       password: X4Kvti6FCgVZyVph
       hikari:
